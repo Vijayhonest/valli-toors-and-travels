@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgHatch6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="busBody" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="40%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1E40AF" />
+    </linearGradient>
+    <linearGradient id="busGoldStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgHatch6)" />
+  <circle cx="300" cy="180" r="140" fill="#F59E0B" opacity="0.08" />
+
+  <path d="M 40 280 L 560 280" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  <path d="M 60 280 L 540 280" stroke="#F59E0B" stroke-width="2" stroke-dasharray="16 12" />
+
+  <!-- Luxury Coach Bus Profile -->
+  <g transform="translate(25, 10)">
+    <ellipse cx="275" cy="265" rx="255" ry="18" fill="#000000" opacity="0.75" />
+
+    <!-- Coach High-Deck Body -->
+    <path d="M 35 240 
+             C 30 180 32 110 50 85 
+             C 65 65 110 60 520 65 
+             C 535 65 540 85 540 120 
+             L 540 245 
+             C 535 255 515 255 495 255 
+             L 470 255 
+             C 460 215 410 215 400 255 
+             L 370 255 
+             C 360 215 310 215 300 255 
+             L 165 255 
+             C 155 215 105 215 95 255 
+             L 35 255 Z" 
+          fill="url(#busBody)" stroke="#1E3A8A" stroke-width="2" />
+
+    <!-- Sleek Golden Graphics / Wave Accent -->
+    <path d="M 35 185 C 120 180 200 215 300 185 C 400 155 480 185 540 180 L 540 195 C 480 200 400 170 300 200 C 200 230 120 195 35 200 Z" fill="url(#busGoldStripe)" />
+
+    <!-- Giant Panoramic Upper Window Ribbon -->
+    <path d="M 45 90 C 45 75 75 72 100 72 L 530 72 L 530 145 L 45 145 Z" fill="#0F172A" />
+    <!-- Window divider lines -->
+    <line x1="120" y1="72" x2="120" y2="145" stroke="#334155" stroke-width="2" />
+    <line x1="180" y1="72" x2="180" y2="145" stroke="#334155" stroke-width="2" />
+    <line x1="240" y1="72" x2="240" y2="145" stroke="#334155" stroke-width="2" />
+    <line x1="300" y1="72" x2="300" y2="145" stroke="#334155" stroke-width="2" />
+    <line x1="360" y1="72" x2="360" y2="145" stroke="#334155" stroke-width="2" />
+    <line x1="420" y1="72" x2="420" y2="145" stroke="#334155" stroke-width="2" />
+    <line x1="480" y1="72" x2="480" y2="145" stroke="#334155" stroke-width="2" />
+
+    <!-- Glass Reflection -->
+    <path d="M 60 76 L 160 76 L 90 140 L 48 140 Z" fill="#38BDF8" opacity="0.3" />
+
+    <!-- Under-floor luggage doors -->
+    <rect x="180" y="215" width="50" height="30" fill="none" stroke="#1E3A8A" stroke-width="1.5" />
+    <rect x="235" y="215" width="50" height="30" fill="none" stroke="#1E3A8A" stroke-width="1.5" />
+
+    <!-- Front & Rear Wheels (Multi-Axle Coach) -->
+    <!-- Front -->
+    <circle cx="130" cy="252" r="35" fill="#0F172A" stroke="#334155" stroke-width="7" />
+    <circle cx="130" cy="252" r="22" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="3" />
+    <circle cx="130" cy="252" r="8" fill="#F59E0B" />
+
+    <!-- Rear Twin Axle -->
+    <circle cx="335" cy="252" r="35" fill="#0F172A" stroke="#334155" stroke-width="7" />
+    <circle cx="335" cy="252" r="22" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="3" />
+    <circle cx="335" cy="252" r="8" fill="#F59E0B" />
+
+    <circle cx="435" cy="252" r="35" fill="#0F172A" stroke="#334155" stroke-width="7" />
+    <circle cx="435" cy="252" r="22" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="3" />
+    <circle cx="435" cy="252" r="8" fill="#F59E0B" />
+  </g>
+
+  <text x="300" y="325" text-anchor="middle" font-family="'Cabinet Grotesk', sans-serif" font-weight="800" font-size="22" fill="#F8FAFC">
+    LUXURY TOURIST COACH BUS
+  </text>
+  <text x="300" y="345" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13" fill="#94A3B8">
+    Executive Air-Suspension Bus · 32-45 Pushback Seats · 25+ Luggage · Corporate &amp; Weddings
+  </text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="valliGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="valliBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Brand Emblem Mark -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Shield / Circle -->
+    <circle cx="50" cy="50" r="48" fill="url(#shieldGrad)" stroke="url(#valliGold)" stroke-width="2.5" />
+    <circle cx="50" cy="50" r="42" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="4 2" />
+
+    <!-- Stylized Highway / Winding Road to Horizon -->
+    <path d="M 28 85 L 46 45 L 54 45 L 72 85 Z" fill="#334155" />
+    <path d="M 49 45 L 51 45 L 52 85 L 48 85 Z" fill="#F59E0B" />
+    <!-- Yellow center dashes -->
+    <line x1="50" y1="48" x2="50" y2="55" stroke="#FCD34D" stroke-width="1.5" />
+    <line x1="50" y1="60" x2="50" y2="70" stroke="#FCD34D" stroke-width="2" />
+    <line x1="50" y1="74" x2="50" y2="84" stroke="#FCD34D" stroke-width="2.5" />
+
+    <!-- Rising Sun / Journey Arc -->
+    <circle cx="50" cy="38" r="12" fill="url(#valliGold)" opacity="0.95" />
+    <path d="M 30 38 A 20 20 0 0 1 70 38" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Elegant Destination Pointer / Bird in flight -->
+    <path d="M 50 18 L 54 26 L 50 24 L 46 26 Z" fill="#FCD34D" />
+
+    <!-- Car silhouette silhouette profile -->
+    <path d="M 36 68 C 36 68 40 64 45 64 L 55 64 C 60 64 64 68 64 68 L 66 73 L 34 73 Z" fill="#FFFFFF" opacity="0.9" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(125, 0)">
+    <!-- VALLI in striking Golden Royal display -->
+    <text x="0" y="52" font-family="'Cabinet Grotesk', 'Arial Black', sans-serif" font-weight="900" font-size="44" letter-spacing="3" fill="url(#valliGold)">
+      VALLI
+    </text>
+
+    <!-- TOURS & TRAVELS in crisp Royal Blue / Pure White -->
+    <text x="3" y="80" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-weight="800" font-size="20" letter-spacing="5" fill="#FFFFFF">
+      TOURS &amp; TRAVELS
+    </text>
+
+    <!-- Tagline: Your Journey... Our Responsibility... -->
+    <text x="4" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-style="italic" font-size="12" letter-spacing="1.2" fill="#93C5FD">
+      Your Journey... Our Responsibility...
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgHatch2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#1C2541" />
+    </linearGradient>
+    <linearGradient id="dzireBody" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="50%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+    <linearGradient id="windowGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgHatch2)" />
+  <circle cx="300" cy="180" r="140" fill="#38BDF8" opacity="0.08" />
+
+  <path d="M 40 280 L 560 280" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  <path d="M 60 280 L 540 280" stroke="#F59E0B" stroke-width="2" stroke-dasharray="16 12" />
+
+  <!-- Dzire Sedan Profile -->
+  <g transform="translate(50, 20)">
+    <ellipse cx="250" cy="255" rx="205" ry="16" fill="#000000" opacity="0.6" />
+
+    <!-- Chassis with distinct 3-box Sedan trunk/boot -->
+    <path d="M 80 220 
+             C 75 205 90 185 130 175 
+             L 190 135 
+             C 215 120 285 118 350 125 
+             L 395 160 
+             L 450 170 
+             C 475 175 485 195 480 220 
+             L 475 238 
+             C 470 248 455 248 435 248 
+             L 395 248 
+             C 385 215 345 215 335 248 
+             L 190 248 
+             C 180 215 140 215 130 248 
+             L 75 248 
+             C 65 245 65 235 70 225 Z" 
+          fill="url(#dzireBody)" stroke="#CBD5E1" stroke-width="2" />
+
+    <!-- Chrome Beltline Accent -->
+    <path d="M 125 185 L 450 180" stroke="#F8FAFC" stroke-width="2" />
+
+    <!-- Glass Windows -->
+    <path d="M 195 142 L 150 172 L 210 172 L 255 138 Z" fill="url(#windowGrad2)" opacity="0.9" />
+    <path d="M 265 138 L 220 172 L 320 172 L 340 138 Z" fill="url(#windowGrad2)" opacity="0.9" />
+    <path d="M 350 140 L 330 172 L 390 172 L 380 148 Z" fill="url(#windowGrad2)" opacity="0.9" />
+
+    <!-- Headlight & Taillight -->
+    <path d="M 75 200 C 75 190 90 185 105 190 L 98 215 Z" fill="#FDE047" opacity="0.95" />
+    <path d="M 470 185 C 480 190 480 205 475 215 L 455 205 Z" fill="#EF4444" />
+
+    <!-- Wheels -->
+    <circle cx="160" cy="245" r="32" fill="#0F172A" stroke="#334155" stroke-width="6" />
+    <circle cx="160" cy="245" r="20" fill="#CBD5E1" stroke="#94A3B8" stroke-width="3" />
+    <circle cx="160" cy="245" r="8" fill="#2563EB" />
+
+    <circle cx="365" cy="245" r="32" fill="#0F172A" stroke="#334155" stroke-width="6" />
+    <circle cx="365" cy="245" r="20" fill="#CBD5E1" stroke="#94A3B8" stroke-width="3" />
+    <circle cx="365" cy="245" r="8" fill="#2563EB" />
+  </g>
+
+  <text x="300" y="325" text-anchor="middle" font-family="'Cabinet Grotesk', sans-serif" font-weight="800" font-size="22" fill="#F8FAFC">
+    MARUTI SUZUKI DZIRE
+  </text>
+  <text x="300" y="345" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13" fill="#94A3B8">
+    Executive Sedan · 4 Passengers · 3 Large Bags · Airport &amp; Outstation
+  </text>
+</svg>

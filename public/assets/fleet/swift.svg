@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgHatch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="swiftBody" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#DC2626" />
+      <stop offset="50%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+    <linearGradient id="windowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <!-- Background Backdrop -->
+  <rect width="600" height="360" rx="16" fill="url(#bgHatch)" />
+  <circle cx="300" cy="180" r="140" fill="#3B82F6" opacity="0.08" />
+
+  <!-- Road Base -->
+  <path d="M 40 280 L 560 280" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  <path d="M 60 280 L 540 280" stroke="#F59E0B" stroke-width="2" stroke-dasharray="16 12" />
+
+  <!-- Car Body: Maruti Swift (Sporty Hatchback) -->
+  <g transform="translate(60, 20)">
+    <!-- Shadow -->
+    <ellipse cx="240" cy="255" rx="190" ry="16" fill="#000000" opacity="0.6" />
+
+    <!-- Main Chassis & Roof Profile -->
+    <path d="M 90 220 
+             C 80 205 95 180 130 170 
+             L 190 135 
+             C 210 120 280 115 360 125 
+             L 405 165 
+             C 435 175 445 195 440 220 
+             L 440 235 
+             C 435 245 425 248 400 248 
+             L 360 248 
+             C 350 220 310 220 300 248 
+             L 190 248 
+             C 180 220 140 220 130 248 
+             L 80 248 
+             C 70 245 70 235 75 225 Z" 
+          fill="url(#swiftBody)" stroke="#991B1B" stroke-width="2" />
+
+    <!-- Glass Greenhouse -->
+    <path d="M 195 142 L 145 172 L 205 172 L 255 140 Z" fill="url(#windowGrad)" opacity="0.85" />
+    <path d="M 265 140 L 215 172 L 320 172 L 345 140 Z" fill="url(#windowGrad)" opacity="0.85" />
+    <path d="M 355 142 L 330 172 L 395 172 L 385 145 Z" fill="url(#windowGrad)" opacity="0.85" />
+
+    <!-- Headlights & Taillights -->
+    <path d="M 80 205 C 80 195 95 190 105 195 L 100 215 Z" fill="#FEF08A" opacity="0.9" />
+    <path d="M 430 185 C 440 190 440 205 435 215 L 420 210 Z" fill="#EF4444" />
+
+    <!-- Sporty Swift Dual Wheels -->
+    <!-- Front Wheel -->
+    <circle cx="160" cy="245" r="32" fill="#0F172A" stroke="#334155" stroke-width="6" />
+    <circle cx="160" cy="245" r="20" fill="#64748B" stroke="#94A3B8" stroke-width="3" />
+    <circle cx="160" cy="245" r="8" fill="#F59E0B" />
+
+    <!-- Rear Wheel -->
+    <circle cx="330" cy="245" r="32" fill="#0F172A" stroke="#334155" stroke-width="6" />
+    <circle cx="330" cy="245" r="20" fill="#64748B" stroke="#94A3B8" stroke-width="3" />
+    <circle cx="330" cy="245" r="8" fill="#F59E0B" />
+  </g>
+
+  <!-- Spec Label Overlay -->
+  <text x="300" y="325" text-anchor="middle" font-family="'Cabinet Grotesk', sans-serif" font-weight="800" font-size="22" fill="#F8FAFC">
+    MARUTI SUZUKI SWIFT
+  </text>
+  <text x="300" y="345" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13" fill="#94A3B8">
+    Sporty Hatchback · 4 Passengers · 2 Bags · City &amp; Quick Escapes
+  </text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Valli Tours and Travels",
+  "description": "Valli Tours and Travels provides comfortable travel services, tour packages, airport transfers, family trips, corporate travel, pilgrimage trips, local and outstation transportation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

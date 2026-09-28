@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgHatch5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="travellerBody" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+    <linearGradient id="travellerStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgHatch5)" />
+  <circle cx="300" cy="180" r="140" fill="#2563EB" opacity="0.08" />
+
+  <path d="M 40 280 L 560 280" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  <path d="M 60 280 L 540 280" stroke="#F59E0B" stroke-width="2" stroke-dasharray="16 12" />
+
+  <!-- Force Traveller Van Profile -->
+  <g transform="translate(35, 10)">
+    <ellipse cx="265" cy="265" rx="230" ry="18" fill="#000000" opacity="0.7" />
+
+    <!-- Boxy High-Roof Van Silhouette -->
+    <path d="M 45 230 
+             C 40 210 50 170 90 145 
+             L 125 90 
+             C 140 75 220 70 480 75 
+             C 505 78 510 95 510 120 
+             L 510 240 
+             C 505 255 480 255 460 255 
+             L 425 255 
+             C 415 210 365 210 355 255 
+             L 180 255 
+             C 170 210 120 210 110 255 
+             L 45 255 
+             C 35 250 35 240 45 230 Z" 
+          fill="url(#travellerBody)" stroke="#94A3B8" stroke-width="2" />
+
+    <!-- Tourist Graphic Stripe -->
+    <path d="M 50 195 L 505 190 L 505 205 L 50 210 Z" fill="url(#travellerStripe)" />
+
+    <!-- Giant Panoramic Glass Windows -->
+    <!-- Windshield -->
+    <path d="M 125 96 L 90 140 L 135 140 L 165 96 Z" fill="#38BDF8" opacity="0.8" />
+    <!-- Passenger Windows 1, 2, 3, 4 -->
+    <rect x="175" y="96" width="65" height="44" rx="4" fill="#0284C7" opacity="0.85" />
+    <rect x="250" y="96" width="65" height="44" rx="4" fill="#0284C7" opacity="0.85" />
+    <rect x="325" y="96" width="65" height="44" rx="4" fill="#0284C7" opacity="0.85" />
+    <rect x="400" y="96" width="65" height="44" rx="4" fill="#0284C7" opacity="0.85" />
+    <rect x="475" y="96" width="25" height="44" rx="4" fill="#0284C7" opacity="0.85" />
+
+    <!-- Roof AC Pack and luggage carrier -->
+    <rect x="220" y="58" width="180" height="14" rx="4" fill="#E2E8F0" stroke="#94A3B8" />
+
+    <!-- Wheels -->
+    <circle cx="145" cy="252" r="35" fill="#0F172A" stroke="#334155" stroke-width="7" />
+    <circle cx="145" cy="252" r="22" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="3" />
+    <circle cx="145" cy="252" r="8" fill="#1D4ED8" />
+
+    <circle cx="390" cy="252" r="35" fill="#0F172A" stroke="#334155" stroke-width="7" />
+    <circle cx="390" cy="252" r="22" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="3" />
+    <circle cx="390" cy="252" r="8" fill="#1D4ED8" />
+  </g>
+
+  <text x="300" y="325" text-anchor="middle" font-family="'Cabinet Grotesk', sans-serif" font-weight="800" font-size="22" fill="#F8FAFC">
+    FORCE TEMPO TRAVELLER
+  </text>
+  <text x="300" y="345" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13" fill="#94A3B8">
+    Group Touring Van · 12-17 Pushback Seats · 8+ Bags · AC · Pilgrimages &amp; Family Groups
+  </text>
+</svg>

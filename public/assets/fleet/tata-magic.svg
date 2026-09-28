@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgHatch7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="magicBody" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="40%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgHatch7)" />
+  <circle cx="300" cy="180" r="140" fill="#F59E0B" opacity="0.08" />
+
+  <path d="M 40 280 L 560 280" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  <path d="M 60 280 L 540 280" stroke="#F59E0B" stroke-width="2" stroke-dasharray="16 12" />
+
+  <!-- Tata Magic Van Profile -->
+  <g transform="translate(60, 20)">
+    <ellipse cx="230" cy="255" rx="180" ry="16" fill="#000000" opacity="0.6" />
+
+    <!-- Compact micro-van cab-over design -->
+    <path d="M 80 230 
+             L 80 145 
+             C 80 120 100 105 130 105 
+             L 380 105 
+             C 400 105 405 120 405 140 
+             L 405 240 
+             C 400 250 380 250 365 250 
+             L 330 250 
+             C 320 215 275 215 265 250 
+             L 165 250 
+             C 155 215 110 215 100 250 
+             L 75 250 
+             C 65 245 65 235 80 230 Z" 
+          fill="url(#magicBody)" stroke="#B45309" stroke-width="2" />
+
+    <!-- Front Flat Windshield & Side Windows -->
+    <path d="M 90 115 L 140 115 L 140 160 L 90 160 Z" fill="#38BDF8" opacity="0.85" />
+    <path d="M 155 115 L 255 115 L 255 160 L 155 160 Z" fill="#38BDF8" opacity="0.85" />
+    <path d="M 270 115 L 375 115 L 375 160 L 270 160 Z" fill="#38BDF8" opacity="0.85" />
+
+    <!-- Headlights & Bumper -->
+    <rect x="75" y="180" width="12" height="24" rx="3" fill="#FEF08A" />
+    <rect x="72" y="215" width="22" height="15" rx="3" fill="#334155" />
+
+    <!-- Wheels -->
+    <circle cx="135" cy="245" r="30" fill="#0F172A" stroke="#334155" stroke-width="6" />
+    <circle cx="135" cy="245" r="18" fill="#CBD5E1" stroke="#94A3B8" stroke-width="3" />
+    <circle cx="135" cy="245" r="6" fill="#F59E0B" />
+
+    <circle cx="300" cy="245" r="30" fill="#0F172A" stroke="#334155" stroke-width="6" />
+    <circle cx="300" cy="245" r="18" fill="#CBD5E1" stroke="#94A3B8" stroke-width="3" />
+    <circle cx="300" cy="245" r="6" fill="#F59E0B" />
+  </g>
+
+  <text x="300" y="325" text-anchor="middle" font-family="'Cabinet Grotesk', sans-serif" font-weight="800" font-size="22" fill="#F8FAFC">
+    TATA MAGIC VAN
+  </text>
+  <text x="300" y="345" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13" fill="#94A3B8">
+    Reliable Passenger Micro-Van · 7-8 Seats · 3 Bags · Local Shuttles &amp; Short Group Trips
+  </text>
+</svg>
